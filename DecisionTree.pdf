@@ -1,0 +1,17 @@
+digraph Tree {
+	node [label="\N", shape=box];
+	graph [bb="0,0,357,380"];
+	0 [label="X[1] <= 70.0\nentropy = 0.954\nsamples = 8\nvalue = [5, 3]", pos="241,338", width="1.67", height="0.94"];
+	1 [label="X[0] <= 1.65\nentropy = 0.971\nsamples = 5\nvalue = [2, 3]", pos="177,234", width="1.61", height="0.94"];
+	2 [label="X[1] <= 55.0\nentropy = 0.918\nsamples = 3\nvalue = [2, 1]", pos="113,130", width="1.61", height="0.94"];
+	3 [label="entropy = 0.0\nsamples = 1\nvalue = [0, 1]", pos="52,34", width="1.44", height="0.72"];
+	4 [label="entropy = 0.0\nsamples = 2\nvalue = [2, 0]", pos="174,34", width="1.44", height="0.72"];
+	5 [label="entropy = 0.0\nsamples = 2\nvalue = [0, 2]", pos="241,130", width="1.44", height="0.72"];
+	6 [label="entropy = 0.0\nsamples = 3\nvalue = [3, 0]", pos="305,234", width="1.44", height="0.72"];
+	0 -> 1 [headlabel=True, labelangle=45, labeldistance="2.5", pos="e,198,268 220,304 215,296 209,286 203,277"];
+	1 -> 2 [pos="e,134,164 156,200 151,192 145,182 139,173"];
+	2 -> 3 [pos="e,69,60 91,96 86,87 80,77 74,68"];
+	2 -> 4 [pos="e,157,60 135,96 140,87 146,77 152,68"];
+	1 -> 5 [pos="e,225,156 198,200 205,189 213,175 220,164"];
+	0 -> 6 [headlabel=False, labelangle="-45", labeldistance="2.5", pos="e,289,260 262,304 269,293 277,279 284,268"];
+}
