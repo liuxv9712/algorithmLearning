@@ -144,7 +144,7 @@ if __name__ == '__main__':
         test_accuracy = TextClassifier(train_feature_list,test_feature_list,train_class_list,test_class_list)
         test_accuracy_list.append(test_accuracy)
         ave = lambda c:sum(c)/len(c)
-    print(ave(test_accuracy_list))
+    print("分类准确率:",ave(test_accuracy_list))
     plt.figure()
     plt.plot(deleteNs,test_accuracy_list)
     plt.title('Relationship of deleteNs and test_accuracy')
