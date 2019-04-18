@@ -1,6 +1,5 @@
 # -*- coding: UTF-8 -*-
 from functools import reduce
-
 import numpy as np
 '''
 朴素贝叶斯算法是有监督的学习算法，解决的是分类问题，如客户是否流失、是否值得投资、信用等级评定等多分类问题。
