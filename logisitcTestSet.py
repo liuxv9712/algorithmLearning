@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 '''
 Logistic回归的一般过程：
 
@@ -85,7 +86,7 @@ def plotBestFit(weights):
     y = (-weights[0] - weights[1] * x)/weights[2]#y轴
     ax.plot(x,y)#绘制图像
     plt.title('BestFit')  #绘制title
-    plt.xlabel('x1');plt.ylabel('x2')   #绘制label
+    plt.xlabel('x1'); plt.ylabel('x2')   #绘制label
     plt.show()
 
 if __name__ == '__main__':
