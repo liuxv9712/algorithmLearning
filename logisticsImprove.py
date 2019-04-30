@@ -102,6 +102,7 @@ def plotBestFit(weights):
             xcord2.append(dataArr[i,1]);ycord2.append(dataArr[i,2])
     fig = plt.figure()
     ax = fig.add_subplot(111) #添加subplot
+    #scatter：散点图
     ax.scatter(xcord1,ycord1,s = 20,c = 'red',marker = 's',alpha=.5)#绘制正样本
     ax.scatter(xcord2,ycord2,s=20,c='green',alpha=.5)    #绘制负样本
     x = np.arange(-3.0,3.0,0.1)#x轴
